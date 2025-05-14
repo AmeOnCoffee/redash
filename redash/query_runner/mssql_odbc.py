@@ -80,7 +80,7 @@ class SQLServerODBC(BaseSQLQueryRunner):
 
     @property
     def supports_auto_limit(self):
-        return false
+        return False
 
     def _get_tables(self, schema):
         query = """
